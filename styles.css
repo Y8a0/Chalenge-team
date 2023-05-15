@@ -1,0 +1,111 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:  #fff;
+   
+    color: #8f8a8a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Style pour la page de connexion*/
+.logo{
+    width: 60%;
+}
+.lim{
+    color: #1898A8;
+    
+}
+
+form input{
+    width: 320px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #8f8a8a
+       
+}
+p{
+    margin-top: -30px;
+    font-size: 1.8rem;
+}
+p span{
+   color: #79B51C; 
+   
+   
+}
+form input:hover{
+  border: 2px solid #79B51C;  
+}
+form input:focus{
+    outline: #79B51C;
+  }
+form button{
+    width: 320px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2%;
+    color: white;
+    background-color: #1A98A8;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #fff;
+    color: #3697ab;
+    border: 2px solid #3697ab;
+}
+form span a{
+   
+    color: #807e7e;
+}
+form input::placeholder{
+    padding: 1rem;
+}
+@media screen and (max-width:1440px) {
+    form span a{
+        margin-right: 22%;
+       
+    }
+    .logo{
+        width: 30%;
+    }
+    p{
+        margin-top: -50px;
+        font-size: 3rem;
+    }
+    form input{
+        width: 450px;
+        height: 45px;
+        border-radius: 5px;
+        border: 1px solid #8f8a8a
+       
+           
+    }
+  
+    form button{
+        width: 450px;
+        height: 45px;
+        border-radius: 5px;
+        border: none;
+        margin-top: 2%;
+        color: white;
+        background-color: #1A98A8;
+        cursor: pointer;
+    }
+}
+@media all and (min-width:768px) and (max-width:900px) {
+    body{
+        font-size: 14px;
+    }
+    form span a{
+        margin-right: 21rem;
+       
+    }
+}
+@media all and (min-width:375px) and (max-width:500px) {
+    body{
+        font-size: 12px;
+    }
+    form span a{
+        margin-right: 60%;
+       
+    }
+}
